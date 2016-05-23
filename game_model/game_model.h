@@ -1,19 +1,9 @@
 #pragma once
-#include "game_model.h"
-
-#include "Role.h"
-#include "Monster.h"
-#include "Map.h"
-#include "character.h"
+#include "stdafx.h"
 #include "startgame.h"
-#include "attackGuai.h"
-#include "d_skill.h"
 #include "random.h"
-#include "Remove.h"
-#include "comeToGuai.h"
-#include "level.h"
-//#define Role r = new Role::Role(NULL, 0, 0, 0, 0, 0, 0, 0, 1);
-class Main {
+#include "remove.h"
+class Main:public startgame {
 private:
 	static bool g_gongji;
 	static bool r_gongji;
@@ -35,8 +25,7 @@ private:
 	static comeToGuai ctg;
 	//	static database db = new database(con, sql, rs, level, exp, skill);
 	static level l;
-
-	//Main();
+	Main() :startgame(r, m, g, c, false, false, false, 0, 0) {}
 };
 bool Main::g_gongji = false;
 bool Main::r_gongji = false;
@@ -48,7 +37,6 @@ class Monster g(NULL, 0, NULL, 0, 0, 0, 0, 0, 0, 0);
 class Main m;
 class Map map(0, 0, 0);
 class character c;
-class startgame s(r, m, g, c, false, false, false, 0, 0);
 class attackGuai atk(r, c, 0,0);
 class d_skill dskill;
 class random ran(r, g, m, c);

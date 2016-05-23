@@ -1,7 +1,6 @@
 #pragma once
-#include "Role.h"
+#include "stdafx.h"
 #include "Monster.h"
-#include "game_model.h"
 class comeToGuai {
 private:
 	

@@ -2,6 +2,9 @@
 #include "Map.h"
 #include <iostream>
 using namespace std;
+Map::Map()
+{
+}
 Map::Map(int x, int y, int mapExp)
 {
 	Map:: X = x;

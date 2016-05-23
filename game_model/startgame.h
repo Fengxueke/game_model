@@ -1,14 +1,12 @@
 #pragma once
-#include "game_model.h"
-#include "Monster.h"
-#include "character.h"
+#include "stdafx.h"
 class startgame {
 private:
-	//Role r;
-	//Main m;
+	Role r;
+	Main m;
 	Monster g;
 	character c;
-	//attackGuai atk;
+	attackGuai atk;
 	bool g_gongji = false;
 	bool r_gongji = false;
 	bool canLook = false;

@@ -1,12 +1,13 @@
 #pragma once
-#include "game_model.h"
+#include "stdafx.h"
 class Map{
 private:
 	int X;
 	int Y;
 	int MapExp;
-	character c;
+	//character c;
 public:
+	Map();
 	Map(int x, int y, int mapExp);
 	void mapExp();
 	int getX();

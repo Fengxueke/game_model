@@ -1,6 +1,6 @@
 #include "stdafx.h"
-#include "attackGuai.h"
 #include <iostream>
+#include "attackGuai.h"
 using namespace std;
 attackGuai::attackGuai()
 {

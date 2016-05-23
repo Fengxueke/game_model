@@ -1,8 +1,5 @@
 #pragma once
-#include "Role.h"
-#include "Monster.h"
-#include "character.h"
-#include "level.h"
+#include "stdafx.h"
 class d_skill {
 private:
 	level l;

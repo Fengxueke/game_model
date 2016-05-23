@@ -1,7 +1,7 @@
 #pragma once
+#include "stdafx.h"
 #include "Map.h"
 #include "Monster.h"
-#include "game_model.h"
 class character {
      public:
 		 character();
@@ -10,7 +10,7 @@ class character {
 		 Map map;
 		 Role R;
 		 Monster G;
-		 Main m;
+		 //Main m;
 		 void init();//³õÊ¼»¯º¯Êý
 		 void randomMonster();
 		 void mapset();

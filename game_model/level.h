@@ -1,6 +1,5 @@
 #pragma once
-#include "character.h"
-#include "Role.h"
+#include "stdafx.h"
 class level {
 private:
 	static character c;
